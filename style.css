@@ -28,7 +28,7 @@
 .logo1
 {
     width: 350px;
-    height: 50px;
+    height: 40px;
 }
 
 .navbar
@@ -236,10 +236,85 @@ h3
 
 #socialmedia
 {
-    background-color: royalblue;
+    background-color: #D32F2F;
     border-radius: 20px;
-    font-size: small;
+    font-size: medium;
     padding: 10px;
     
     
+}
+
+
+.reg
+{
+    
+    background-color: whitesmoke;
+    padding-bottom:  50px;
+    text-align: center !important;
+}
+
+
+.fa-user-plus
+{
+    font-size: 120px !important;
+}
+
+
+/* .reg1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+} */
+
+.maindiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.maindiv > div{
+  margin-right: 10px;
+  padding: 2px;
+  text-align: center !important;
+}
+
+label
+{
+    font-weight: bold;
+    font-size: large;
+    margin: 10px;
+}
+
+.input1
+{
+    height: 35px;
+    width: 500px;
+}
+
+
+.btn-lg
+{
+    margin-top: 20px;
+    width: 100px;
+    padding: 5px;
+}
+
+
+.w-100
+{
+    height: 500px;
+}
+
+
+h4
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
